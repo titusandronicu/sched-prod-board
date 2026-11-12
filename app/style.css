@@ -15,3 +15,6 @@ footer { color: #777; font-size: 13px; }
 .loader, .empty, .status { max-width: 960px; color: #666; }
 .status { color: #b00020; }
 [hidden] { display: none !important; }
+.bar-slot { max-width: 960px; height: 44px; display: flex; align-items: center; } /* reserved, so the bar never pushes rows */
+.new-bar { font: inherit; width: 100%; min-height: 36px; border: 1px solid #1a5fb4; background: #e8f0fb; color: #1a5fb4; font-weight: 600; cursor: pointer; border-radius: 6px; }
+.cell { display: block; }
