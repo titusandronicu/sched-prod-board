@@ -1,5 +1,5 @@
 {
   "name": "sched-prod-board",
-  "compatibility_date": "2026-11-01",
-  "assets": { "directory": "./dist" }
+  "main": "worker/worker.js",
+  "compatibility_date": "2026-11-01"
 }
